@@ -1,0 +1,1692 @@
+Waf: Entering directory `/home/wj/NS3_dev_client/ns-3-dev-master/build'
+Waf: Leaving directory `/home/wj/NS3_dev_client/ns-3-dev-master/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (2.418s)
++0.000000000s YansWifiChannel:YansWifiChannel(0x18742b0)
+YansWifiChannel::YansWifiChannel()
++0.000000000s YansWifiChannel:SetPropagationLossModel(0x18742b0, 0x1874750)
++0.000000000s YansWifiChannel:SetPropagationDelayModel(0x18742b0, 0x1875200)
++0.000000000s RegularWifiMac:RegularWifiMac(0x18792e0)
+[mac=00:00:00:00:00:00] MacLow:MacLow(0x18795c0)
+Txop:Txop(0x18791b0)
+Txop:SetMinCw(0x18791b0, 15)
+Txop:ResetCw(0x18791b0)
+Txop:SetMaxCw(0x18791b0, 1023)
+Txop:ResetCw(0x18791b0)
+Txop:SetAifsn(0x18791b0, 2)
+Txop:SetTxopLimit(0x18791b0, +0.0ns)
+Txop:SetMacLow(0x18791b0, 0x18795c0)
+[mac=00:00:00:00:00:00] Txop:SetChannelAccessManager(0x18791b0, 0x1879b40)
+[mac=00:00:00:00:00:00] Txop:SetTxMiddle(0x18791b0)
+[mac=00:00:00:00:00:00] Txop:SetTxOkCallback(0x18791b0, 0x7ffda33a7b10)
+[mac=00:00:00:00:00:00] Txop:SetTxFailedCallback(0x18791b0, 0x7ffda33a7b20)
+[mac=00:00:00:00:00:00] Txop:SetTxDroppedCallback(0x18791b0, 0x7ffda33a7b40)
++0.000000000s RegularWifiMac:SetupEdcaQueue(0x18792e0, 3)
+Txop:Txop(0x187a3b0)
+Txop:SetMinCw(0x187a3b0, 15)
+Txop:ResetCw(0x187a3b0)
+Txop:SetMaxCw(0x187a3b0, 1023)
+Txop:ResetCw(0x187a3b0)
+Txop:SetAifsn(0x187a3b0, 2)
+Txop:SetTxopLimit(0x187a3b0, +0.0ns)
+Txop:SetMacLow(0x187a3b0, 0x18795c0)
+[mac=00:00:00:00:00:00] Txop:SetChannelAccessManager(0x187a3b0, 0x1879b40)
+[mac=00:00:00:00:00:00] Txop:SetTxMiddle(0x187a3b0)
+[mac=00:00:00:00:00:00] Txop:SetTxOkCallback(0x187a3b0, 0x7ffda33a7960)
+[mac=00:00:00:00:00:00] Txop:SetTxFailedCallback(0x187a3b0, 0x7ffda33a7970)
+[mac=00:00:00:00:00:00] Txop:SetTxDroppedCallback(0x187a3b0, 0x7ffda33a7980)
++0.000000000s RegularWifiMac:SetupEdcaQueue(0x18792e0, 2)
+Txop:Txop(0x187ae80)
+Txop:SetMinCw(0x187ae80, 15)
+Txop:ResetCw(0x187ae80)
+Txop:SetMaxCw(0x187ae80, 1023)
+Txop:ResetCw(0x187ae80)
+Txop:SetAifsn(0x187ae80, 2)
+Txop:SetTxopLimit(0x187ae80, +0.0ns)
+Txop:SetMacLow(0x187ae80, 0x18795c0)
+[mac=00:00:00:00:00:00] Txop:SetChannelAccessManager(0x187ae80, 0x1879b40)
+[mac=00:00:00:00:00:00] Txop:SetTxMiddle(0x187ae80)
+[mac=00:00:00:00:00:00] Txop:SetTxOkCallback(0x187ae80, 0x7ffda33a7960)
+[mac=00:00:00:00:00:00] Txop:SetTxFailedCallback(0x187ae80, 0x7ffda33a7970)
+[mac=00:00:00:00:00:00] Txop:SetTxDroppedCallback(0x187ae80, 0x7ffda33a7980)
++0.000000000s RegularWifiMac:SetupEdcaQueue(0x18792e0, 0)
+Txop:Txop(0x187b9f0)
+Txop:SetMinCw(0x187b9f0, 15)
+Txop:ResetCw(0x187b9f0)
+Txop:SetMaxCw(0x187b9f0, 1023)
+Txop:ResetCw(0x187b9f0)
+Txop:SetAifsn(0x187b9f0, 2)
+Txop:SetTxopLimit(0x187b9f0, +0.0ns)
+Txop:SetMacLow(0x187b9f0, 0x18795c0)
+[mac=00:00:00:00:00:00] Txop:SetChannelAccessManager(0x187b9f0, 0x1879b40)
+[mac=00:00:00:00:00:00] Txop:SetTxMiddle(0x187b9f0)
+[mac=00:00:00:00:00:00] Txop:SetTxOkCallback(0x187b9f0, 0x7ffda33a7960)
+[mac=00:00:00:00:00:00] Txop:SetTxFailedCallback(0x187b9f0, 0x7ffda33a7970)
+[mac=00:00:00:00:00:00] Txop:SetTxDroppedCallback(0x187b9f0, 0x7ffda33a7980)
++0.000000000s RegularWifiMac:SetupEdcaQueue(0x18792e0, 1)
+Txop:Txop(0x187c4f0)
+Txop:SetMinCw(0x187c4f0, 15)
+Txop:ResetCw(0x187c4f0)
+Txop:SetMaxCw(0x187c4f0, 1023)
+Txop:ResetCw(0x187c4f0)
+Txop:SetAifsn(0x187c4f0, 2)
+Txop:SetTxopLimit(0x187c4f0, +0.0ns)
+Txop:SetMacLow(0x187c4f0, 0x18795c0)
+[mac=00:00:00:00:00:00] Txop:SetChannelAccessManager(0x187c4f0, 0x1879b40)
+[mac=00:00:00:00:00:00] Txop:SetTxMiddle(0x187c4f0)
+[mac=00:00:00:00:00:00] Txop:SetTxOkCallback(0x187c4f0, 0x7ffda33a7960)
+[mac=00:00:00:00:00:00] Txop:SetTxFailedCallback(0x187c4f0, 0x7ffda33a7970)
+[mac=00:00:00:00:00:00] Txop:SetTxDroppedCallback(0x187c4f0, 0x7ffda33a7980)
++0.000000000s StaWifiMac:StaWifiMac(0x18792e0)
++0.000000000s RegularWifiMac:SetTypeOfStation(0x18792e0, 0)
++0.000000000s StaWifiMac:SetActiveProbing(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetQosSupported(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetCtsToSelfSupported(0x18792e0)
++0.000000000s RegularWifiMac:SetVoBlockAckThreshold(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetViBlockAckThreshold(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetBeBlockAckThreshold(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetBkBlockAckThreshold(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetVoBlockAckInactivityTimeout(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetViBlockAckInactivityTimeout(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetBeBlockAckInactivityTimeout(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetBkBlockAckInactivityTimeout(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetShortSlotTimeSupported(0x18792e0, 1)
++0.000000000s RegularWifiMac:SetRifsSupported(0x18792e0, 0)
++0.000000000s RegularWifiMac:SetCtsTimeout(0x18792e0, +75000.0ns)
++0.000000000s RegularWifiMac:SetAckTimeout(0x18792e0, +75000.0ns)
++0.000000000s RegularWifiMac:SetBasicBlockAckTimeout(0x18792e0, +281000.0ns)
++0.000000000s RegularWifiMac:SetCompressedBlockAckTimeout(0x18792e0, +107000.0ns)
++0.000000000s RegularWifiMac:SetSifs(0x18792e0, +16000.0ns)
++0.000000000s RegularWifiMac:SetEifsNoDifs(0x18792e0, +60000.0ns)
++0.000000000s RegularWifiMac:SetSlot(0x18792e0, +9000.0ns)
++0.000000000s RegularWifiMac:SetPifs(0x18792e0, +25000.0ns)
++0.000000000s RegularWifiMac:SetRifs(0x18792e0, +2000.0ns)
++0.000000000s RegularWifiMac:SetSsid(0x18792e0, ns-3-ssid)
++0.000000000s YansWifiChannel:Add(0x18742b0, 0x187d340)
++0.000000000s RegularWifiMac:SetAddress(0x18792e0, 00:00:00:00:00:02)
++0.000000000s RegularWifiMac:SetSifs(0x18792e0, +16000.0ns)
++0.000000000s RegularWifiMac:SetSlot(0x18792e0, +9000.0ns)
++0.000000000s RegularWifiMac:SetEifsNoDifs(0x18792e0, +60000.0ns)
++0.000000000s RegularWifiMac:SetPifs(0x18792e0, +25000.0ns)
++0.000000000s RegularWifiMac:SetCtsTimeout(0x18792e0, +75000.0ns)
++0.000000000s RegularWifiMac:SetAckTimeout(0x18792e0, +75000.0ns)
++0.000000000s RegularWifiMac:FinishConfigureStandard(0x18792e0, 0)
+[mac=00:00:00:00:00:02] Txop:SetMinCw(0x18791b0, 15)
+[mac=00:00:00:00:00:02] Txop:SetMaxCw(0x18791b0, 1023)
+[mac=00:00:00:00:00:02] Txop:SetAifsn(0x18791b0, 2)
+[mac=00:00:00:00:00:02] Txop:SetTxopLimit(0x18791b0, +0.0ns)
+[mac=00:00:00:00:00:02] Txop:SetMinCw(0x187b9f0, 15)
+[mac=00:00:00:00:00:02] Txop:SetMaxCw(0x187b9f0, 1023)
+[mac=00:00:00:00:00:02] Txop:SetAifsn(0x187b9f0, 3)
+[mac=00:00:00:00:00:02] Txop:SetTxopLimit(0x187b9f0, +0.0ns)
+[mac=00:00:00:00:00:02] Txop:SetMinCw(0x187c4f0, 15)
+[mac=00:00:00:00:00:02] Txop:SetMaxCw(0x187c4f0, 1023)
+[mac=00:00:00:00:00:02] Txop:SetAifsn(0x187c4f0, 7)
+[mac=00:00:00:00:00:02] Txop:SetTxopLimit(0x187c4f0, +0.0ns)
+[mac=00:00:00:00:00:02] Txop:SetMinCw(0x187ae80, 7)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x187ae80)
+[mac=00:00:00:00:00:02] Txop:SetMaxCw(0x187ae80, 15)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x187ae80)
+[mac=00:00:00:00:00:02] Txop:SetAifsn(0x187ae80, 2)
+[mac=00:00:00:00:00:02] Txop:SetTxopLimit(0x187ae80, +3008000.0ns)
+[mac=00:00:00:00:00:02] Txop:SetMinCw(0x187a3b0, 3)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x187a3b0)
+[mac=00:00:00:00:00:02] Txop:SetMaxCw(0x187a3b0, 7)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x187a3b0)
+[mac=00:00:00:00:00:02] Txop:SetAifsn(0x187a3b0, 2)
+[mac=00:00:00:00:00:02] Txop:SetTxopLimit(0x187a3b0, +1504000.0ns)
++0.000000000s StaWifiMac:SetWifiRemoteStationManager(0x18792e0, 0x1879040)
++0.000000000s RegularWifiMac:SetWifiRemoteStationManager(0x18792e0, 0x1879040)
+[mac=00:00:00:00:00:02] Txop:SetWifiRemoteStationManager(0x18791b0, 0x1879040)
+[mac=00:00:00:00:00:02] Txop:SetWifiRemoteStationManager(0x187b9f0, 0x1879040)
+[mac=00:00:00:00:00:02] Txop:SetWifiRemoteStationManager(0x187c4f0, 0x1879040)
+[mac=00:00:00:00:00:02] Txop:SetWifiRemoteStationManager(0x187ae80, 0x1879040)
+[mac=00:00:00:00:00:02] Txop:SetWifiRemoteStationManager(0x187a3b0, 0x1879040)
++0.000000000s StaWifiMac:SetWifiPhy(0x18792e0, 0x187d340)
++0.000000000s RegularWifiMac:SetWifiPhy(0x18792e0, 0x187d340)
++0.000000000s RegularWifiMac:SetForwardUpCallback(0x18792e0)
++0.000000000s RegularWifiMac:SetLinkUpCallback(0x18792e0)
++0.000000000s RegularWifiMac:SetLinkDownCallback(0x18792e0)
+[mac=00:00:00:00:00:02] Txop:GetWifiMacQueue(0x18791b0)
++0.000000000s ArpL3Protocol:ArpL3Protocol(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:SetNode(0x187e140, 0x1875ce0)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:NotifyNewAggregate(0x187e140)
++0.000000000s ArpL3Protocol:SetTrafficControl(0x187e140, 0x187faf0)
++0.000000000s ArpL3Protocol:CreateCache(0x187e140, 0x1878f50, 0x1880680)
++0.000000000s StaWifiMac:DoInitialize(0x18792e0)
++0.000000000s StaWifiMac:StartScanning(0x18792e0)
++0.120000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.120000000s StaWifiMac:StartScanning(0x18792e0)
++0.240000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.240000000s StaWifiMac:StartScanning(0x18792e0)
++0.360000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.360000000s StaWifiMac:StartScanning(0x18792e0)
++0.480000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.480000000s StaWifiMac:StartScanning(0x18792e0)
++0.600000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.600000000s StaWifiMac:StartScanning(0x18792e0)
++0.720000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.720000000s StaWifiMac:StartScanning(0x18792e0)
++0.840000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.840000000s StaWifiMac:StartScanning(0x18792e0)
++0.960000000s StaWifiMac:ScanningTimeout(0x18792e0)
++0.960000000s StaWifiMac:StartScanning(0x18792e0)
++0.969847000s YansWifiChannel:WjCallReceive(0x18742b0)
++0.969847000s YansWifiChannel:Total_Deserialize(0x18742b0)
++0.969847000s YansWifiChannel:Receive(0x187d340, 0x1884740, 9.66712e-317, +969847000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +34000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +34000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +34000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +43000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +79000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=1, lifetime=-782675us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: 0 STBC: 0)
++0.969959000s StaWifiMac:Receive(0x18792e0, 0x1881b80, 0x7ffda33a7920)
++0.969959000s StaWifiMac:UpdateCandidateApList(0x18792e0, 00:00:00:00:00:08, 00:00:00:00:00:08, 2.49229e+09, 0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, Extended Capabilities=0 , HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, ssid=, rates=[], ERP information=0|0|0, Extended Capabilities=0 , HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0)
++1.080000000s StaWifiMac:ScanningTimeout(0x18792e0)
++1.080000000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=0|0|0, Extended Capabilities=0 , HT Capabilities=0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , HT Operation=0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++1.080000000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning new state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++1.080000000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++1.080000000s StaWifiMac:SendAssociationRequest(0x18792e0, 00:00:00:00:00:08, 0)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x1881b80, 0x7ffda33a6f10)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +970002000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +970038000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, 0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +1080034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +970002000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +970038000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +1080034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +969993000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +970002000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +970038000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=25, to=00:00:00:00:00:08, seq=0
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=25, to=00:00:00:00:00:08, seqN=0, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +1080034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +96000.0ns, +750000000.0ns, +750096000.0ns, +1080034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++1.080034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x18075c0, 16.0206)
++1.080034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++1.080034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++1.095320000s YansWifiChannel:WjCallReceive(0x18742b0)
++1.095320000s YansWifiChannel:Total_Deserialize(0x18742b0)
++1.095320000s YansWifiChannel:Receive(0x187d340, 0x187c8d0, 9.66662e-317, +1095320000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-787363us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++1.095368000s RegularWifiMac:TxOk(0x18792e0, MGT_ASSOCIATION_REQUEST ToDS=0, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=0)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 13)
+[mac=00:00:00:00:00:02] start backoff=13 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++1.096839000s YansWifiChannel:WjCallReceive(0x18742b0)
++1.096839000s YansWifiChannel:Total_Deserialize(0x18742b0)
++1.096839000s YansWifiChannel:Receive(0x187d340, 0x187adf0, 9.63281e-317, +1096839000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 13, +1095519000.0ns)
+[mac=00:00:00:00:00:02] update slots=13 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +1095402000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +1095402000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +1095411000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +1095447000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=16, to=00:00:00:00:00:02, seqN=2, lifetime=-785882us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++1.096927000s StaWifiMac:Receive(0x18792e0, 0x1884680, 0x7ffda33a7920)
++1.096927000s StaWifiMac:UpdateApInfoFromAssocResp(0x18792e0, status code=success, aid=1, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x187e360, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++1.096943000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x18075c0, 16.0206)
++1.096943000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x187e360
++1.096943000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++1.994613000s YansWifiChannel:WjCallReceive(0x18742b0)
++1.994613000s YansWifiChannel:Total_Deserialize(0x18742b0)
++1.994613000s YansWifiChannel:Receive(0x187d340, 0x187c8d0, 9.66796e-317, +1994613000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +1097021000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +1097021000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +1097021000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +1097030000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +1097066000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=3, lifetime=-781909us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++1.994725000s StaWifiMac:Receive(0x18792e0, 0x1881b80, 0x7ffda33a7920)
++1.994725000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++1.994725000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++1.994725000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++2.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187d870, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
+At time 2s client sent 1024 bytes to 10.1.3.1 port 9
++2.003000000s ArpL3Protocol:SendArpRequest(0x187e140, 0x187ff50, 10.1.3.1)
++2.003000000s StaWifiMac:Enqueue(0x18792e0, 0x1881b80, ff:ff:ff:ff:ff:ff)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x1881b80, 0x7ffda33a7d10)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +1994768000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +1994804000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2003034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +1994768000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +1994804000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2003034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +1994759000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +1994768000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +1994804000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=36, to=00:00:00:00:00:08, seq=16
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=36, to=00:00:00:00:00:08, seqN=1, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +2003034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +112000.0ns, +750000000.0ns, +750112000.0ns, +2003034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1843010, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.003034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1884740, 16.0206)
++2.003034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1843010
++2.003034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++2.020504000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.020504000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.020504000s YansWifiChannel:Receive(0x187d340, 0x18075c0, 0, +2020504000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-783977us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++2.020552000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=ff:ff:ff:ff:ff:ff, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=1)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 9)
+[mac=00:00:00:00:00:02] start backoff=9 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++2.022002000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.022002000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.022002000s YansWifiChannel:Receive(0x187d340, 0x1884740, 9.66798e-317, +2022002000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 9, +2020667000.0ns)
+[mac=00:00:00:00:00:02] update slots=9 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2020586000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2020586000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2020595000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2020631000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=36, to=ff:ff:ff:ff:ff:ff, seqN=4, lifetime=-782489us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.022118000s StaWifiMac:Receive(0x18792e0, 0x1840400, 0x7ffda33a7920)
+00:00:00:00:00:02
+00:00:00:00:00:02
++2.023967000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.023967000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.023967000s YansWifiChannel:Receive(0x187d340, 0x187b920, 0, +2023967000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2022152000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2022152000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2022152000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2022161000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2022197000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=36, to=00:00:00:00:00:02, seqN=5, lifetime=-780733us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.024083000s StaWifiMac:Receive(0x18792e0, 0x181d820, 0x7ffda33a7920)
++2.024083000s RegularWifiMac:ForwardUp(0x18792e0, 0x181d820, 00:00:00:00:00:08, 00:00:00:00:00:02)
++2.024083000s ArpL3Protocol:Receive(0x187e140, 0x1878f50, 28, 2054, 02-06-00:00:00:00:00:08, 02-06-00:00:00:00:00:02, 0)
++2.024083000s ArpL3Protocol:FindCache(0x187e140, 0x1878f50)
++2.024083000s ArpL3Protocol:Lookup(0x187e140, 0x187d870, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a4a40)
++2.024083000s StaWifiMac:Enqueue(0x18792e0, 0x187d870, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187d870, 0x7ffda33a4430)
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2024117000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x187e360, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.024099000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1879ec0, 16.0206)
++2.024099000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x187e360
++2.024099000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2024177000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2024177000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2024177000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=32
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=2, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +2024177000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +2024177000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x187e360, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.024177000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187c8d0, 16.0206)
++2.024177000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x187e360
++2.024177000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++2.034406000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.034406000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.034406000s YansWifiChannel:Receive(0x187d340, 0x187bdb0, 6.8988e-310, +2034406000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-788615us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++2.034454000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=2)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 7)
+[mac=00:00:00:00:00:02] start backoff=7 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++2.045572000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.045572000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.045572000s YansWifiChannel:Receive(0x187d340, 0x187c8d0, 6.8988e-310, +2045572000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 7, +2034551000.0ns)
+[mac=00:00:00:00:00:02] update slots=7 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2034488000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2034488000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2034497000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2034533000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=36, to=ff:ff:ff:ff:ff:ff, seqN=6, lifetime=-781399us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.045688000s StaWifiMac:Receive(0x18792e0, 0x1884740, 0x7ffda33a7920)
++2.045688000s RegularWifiMac:ForwardUp(0x18792e0, 0x1884740, 00:00:00:00:00:08, ff:ff:ff:ff:ff:ff)
++2.045688000s ArpL3Protocol:Receive(0x187e140, 0x1878f50, 28, 2054, 02-06-00:00:00:00:00:08, 02-06-00:00:00:00:00:02, 0)
++2.045688000s ArpL3Protocol:FindCache(0x187e140, 0x1878f50)
++2.045688000s ArpL3Protocol:SendArpReply(0x187e140, 0x187ff50, 10.1.3.2, 10.1.3.1, 00-06-00:00:00:00:00:08)
++2.045688000s StaWifiMac:Enqueue(0x18792e0, 0x187d870, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187d870, 0x7ffda33a4530)
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2045722000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2045722000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2045722000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2045722000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=36, to=00:00:00:00:00:08, seq=48
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=36, to=00:00:00:00:00:08, seqN=3, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +2045722000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +112000.0ns, +750000000.0ns, +750112000.0ns, +2045722000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1880730, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.045722000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187bdb0, 16.0206)
++2.045722000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1880730
++2.045722000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++2.054542000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.054542000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.054542000s YansWifiChannel:Receive(0x187d340, 0x1884650, 6.8988e-310, +2054542000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-787539us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++2.054590000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=3)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 6)
+[mac=00:00:00:00:00:02] start backoff=6 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++2.055810000s YansWifiChannel:WjCallReceive(0x18742b0)
++2.055810000s YansWifiChannel:Total_Deserialize(0x18742b0)
++2.055810000s YansWifiChannel:Receive(0x187d340, 0x187c8d0, 6.8988e-310, +2055810000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 6, +2054678000.0ns)
+[mac=00:00:00:00:00:02] update slots=6 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2054624000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2054624000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2054633000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2054669000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=7, lifetime=-784917us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.057290000s StaWifiMac:Receive(0x18792e0, 0x1884430, 0x7ffda33a7920)
++2.057290000s RegularWifiMac:ForwardUp(0x18792e0, 0x1884430, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 2.05729s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x187e360, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++2.057306000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1881050, 16.0206)
++2.057306000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x187e360
++2.057306000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++3.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187d870, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++3.000000000s StaWifiMac:Enqueue(0x18792e0, 0x187d870, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187d870, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2057393000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2057429000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +3000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2057393000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2057429000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 3s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +3000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +2057384000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +2057393000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +2057429000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=64
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=4, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +3000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +3000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x18b5140, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++3.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187b920, 16.0206)
++3.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x18b5140
++3.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++3.012810000s YansWifiChannel:WjCallReceive(0x18742b0)
++3.012810000s YansWifiChannel:Total_Deserialize(0x18742b0)
++3.012810000s YansWifiChannel:Receive(0x187d340, 0x187b920, 6.8988e-310, +3012810000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=8, lifetime=-787712us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++3.012922000s StaWifiMac:Receive(0x18792e0, 0x18075c0, 0x7ffda33a7920)
++3.012922000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++3.012922000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++3.012922000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++3.022781000s YansWifiChannel:WjCallReceive(0x18742b0)
++3.022781000s YansWifiChannel:Total_Deserialize(0x18742b0)
++3.022781000s YansWifiChannel:Receive(0x187d340, 0x187c8d0, 0, +3022781000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-788723us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++3.022829000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=4)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 5)
+[mac=00:00:00:00:00:02] start backoff=5 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++3.024358000s YansWifiChannel:WjCallReceive(0x18742b0)
++3.024358000s YansWifiChannel:Total_Deserialize(0x18742b0)
++3.024358000s YansWifiChannel:Receive(0x187d340, 0x187b920, 0, +3024358000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 5, +3022908000.0ns)
+[mac=00:00:00:00:00:02] update slots=5 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +3022863000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +3022863000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +3022872000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +3022908000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=9, lifetime=-785792us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++3.025838000s StaWifiMac:Receive(0x18792e0, 0x187d870, 0x7ffda33a7920)
++3.025838000s RegularWifiMac:ForwardUp(0x18792e0, 0x187d870, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 3.02584s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++3.025854000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187c8d0, 16.0206)
++3.025854000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++3.025854000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++4.000000000s ArpL3Protocol:Lookup(0x187e140, 0x18075c0, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++4.000000000s StaWifiMac:Enqueue(0x18792e0, 0x18075c0, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x18075c0, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +3025941000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +3025977000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +4000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +3025941000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +3025977000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 4s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +4000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +3025932000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +3025941000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +3025977000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=80
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=5, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +4000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +4000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++4.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d280, 16.0206)
++4.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++4.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++4.029946000s YansWifiChannel:WjCallReceive(0x18742b0)
++4.029946000s YansWifiChannel:Total_Deserialize(0x18742b0)
++4.029946000s YansWifiChannel:Receive(0x187d340, 0x1879a10, 6.8988e-310, +4029946000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-783504us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++4.029994000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=5)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 12)
+[mac=00:00:00:00:00:02] start backoff=12 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++4.033929000s YansWifiChannel:WjCallReceive(0x18742b0)
++4.033929000s YansWifiChannel:Total_Deserialize(0x18742b0)
++4.033929000s YansWifiChannel:Receive(0x187d340, 0x187b920, 6.8988e-310, +4033929000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 12, +4030136000.0ns)
+[mac=00:00:00:00:00:02] update slots=12 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +4030028000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +4030028000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +4030037000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +4030073000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=10, lifetime=-778167us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++4.035409000s StaWifiMac:Receive(0x18792e0, 0x187adf0, 0x7ffda33a7920)
++4.035409000s RegularWifiMac:ForwardUp(0x18792e0, 0x187adf0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 4.03541s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1860b20, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++4.035425000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1874fa0, 16.0206)
++4.035425000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1860b20
++4.035425000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++4.048443000s YansWifiChannel:WjCallReceive(0x18742b0)
++4.048443000s YansWifiChannel:Total_Deserialize(0x18742b0)
++4.048443000s YansWifiChannel:Receive(0x187d340, 0x1874fa0, 6.8988e-310, +4048443000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +4035503000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +4035503000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +4035503000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +4035512000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +4035548000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=11, lifetime=-783765us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++4.048555000s StaWifiMac:Receive(0x18792e0, 0x18075c0, 0x7ffda33a7920)
++4.048555000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++4.048555000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++4.048555000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++5.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187bdb0, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++5.000000000s StaWifiMac:Enqueue(0x18792e0, 0x187bdb0, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187bdb0, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +4048598000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +4048634000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +5000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +4048598000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +4048634000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 5s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +5000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +4048589000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +4048598000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +4048634000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=96
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=6, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +5000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +5000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x18446f0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++5.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d280, 16.0206)
++5.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x18446f0
++5.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++5.023199000s YansWifiChannel:WjCallReceive(0x18742b0)
++5.023199000s YansWifiChannel:Total_Deserialize(0x18742b0)
++5.023199000s YansWifiChannel:Receive(0x187d340, 0x1879a10, 6.8988e-310, +5023199000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-781340us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++5.023247000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=6)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 1)
+[mac=00:00:00:00:00:02] start backoff=1 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++5.026932000s YansWifiChannel:WjCallReceive(0x18742b0)
++5.026932000s YansWifiChannel:Total_Deserialize(0x18742b0)
++5.026932000s YansWifiChannel:Receive(0x187d340, 0x187d280, 6.8988e-310, +5026932000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 1, +5023290000.0ns)
+[mac=00:00:00:00:00:02] update slots=1 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +5023281000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +5023281000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +5023290000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +5023326000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=12, lifetime=-776253us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++5.028412000s StaWifiMac:Receive(0x18792e0, 0x187adf0, 0x7ffda33a7920)
++5.028412000s RegularWifiMac:ForwardUp(0x18792e0, 0x187adf0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 5.02841s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++5.028428000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1874fa0, 16.0206)
++5.028428000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++5.028428000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++5.059603000s YansWifiChannel:WjCallReceive(0x18742b0)
++5.059603000s YansWifiChannel:Total_Deserialize(0x18742b0)
++5.059603000s YansWifiChannel:Receive(0x187d340, 0x187d750, 6.8988e-310, +5059603000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +5028506000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +5028506000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +5028506000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +5028515000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +5028551000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=13, lifetime=-788919us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++5.059715000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++5.059715000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++5.059715000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++5.059715000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++6.000000000s ArpL3Protocol:Lookup(0x187e140, 0x1884430, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++6.000000000s StaWifiMac:Enqueue(0x18792e0, 0x1884430, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x1884430, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +5059758000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +5059794000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +6000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +5059758000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +5059794000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 6s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +6000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +5059749000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +5059758000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +5059794000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=112
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=7, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +6000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +6000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x18620d0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++6.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1879a10, 16.0206)
++6.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x18620d0
++6.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++6.017348000s YansWifiChannel:WjCallReceive(0x18742b0)
++6.017348000s YansWifiChannel:Total_Deserialize(0x18742b0)
++6.017348000s YansWifiChannel:Receive(0x187d340, 0x1879a10, 6.8988e-310, +6017348000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-785593us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++6.017396000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=7)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 9)
+[mac=00:00:00:00:00:02] start backoff=9 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++6.019629000s YansWifiChannel:WjCallReceive(0x18742b0)
++6.019629000s YansWifiChannel:Total_Deserialize(0x18742b0)
++6.019629000s YansWifiChannel:Receive(0x187d340, 0x187d280, 6.8988e-310, +6019629000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 9, +6017511000.0ns)
+[mac=00:00:00:00:00:02] update slots=9 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +6017430000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +6017430000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +6017439000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +6017475000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=14, lifetime=-781958us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++6.021109000s StaWifiMac:Receive(0x18792e0, 0x187adf0, 0x7ffda33a7920)
++6.021109000s RegularWifiMac:ForwardUp(0x18792e0, 0x187adf0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 6.02111s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x18757d0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++6.021125000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d750, 16.0206)
++6.021125000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x18757d0
++6.021125000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++6.084540000s YansWifiChannel:WjCallReceive(0x18742b0)
++6.084540000s YansWifiChannel:Total_Deserialize(0x18742b0)
++6.084540000s YansWifiChannel:Receive(0x187d340, 0x1879a10, 6.8988e-310, +6084540000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +6021203000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +6021203000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +6021203000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +6021212000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +6021248000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=15, lifetime=-787982us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++6.084652000s StaWifiMac:Receive(0x18792e0, 0x1884430, 0x7ffda33a7920)
++6.084652000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++6.084652000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++6.084652000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++7.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187bdb0, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++7.000000000s StaWifiMac:Enqueue(0x18792e0, 0x187bdb0, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187bdb0, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +6084695000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +6084731000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +7000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +6084695000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +6084731000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 7s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +7000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +6084686000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +6084695000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +6084731000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=128
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=8, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +7000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +7000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++7.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d280, 16.0206)
++7.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++7.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++7.012965000s YansWifiChannel:WjCallReceive(0x18742b0)
++7.012965000s YansWifiChannel:Total_Deserialize(0x18742b0)
++7.012965000s YansWifiChannel:Receive(0x187d340, 0x187d750, 6.8988e-310, +7012965000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-788997us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++7.013013000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=8)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 15)
+[mac=00:00:00:00:00:02] start backoff=15 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++7.014240000s YansWifiChannel:WjCallReceive(0x18742b0)
++7.014240000s YansWifiChannel:Total_Deserialize(0x18742b0)
++7.014240000s YansWifiChannel:Receive(0x187d340, 0x1879a10, 6.8988e-310, +7014240000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 15, +7013182000.0ns)
+[mac=00:00:00:00:00:02] update slots=15 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +7013047000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +7013047000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +7013056000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +7013092000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=16, lifetime=-786368us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++7.015720000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++7.015720000s RegularWifiMac:ForwardUp(0x18792e0, 0x187bdb0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 7.01572s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1831880, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++7.015736000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d280, 16.0206)
++7.015736000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1831880
++7.015736000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++7.112470000s YansWifiChannel:WjCallReceive(0x18742b0)
++7.112470000s YansWifiChannel:Total_Deserialize(0x18742b0)
++7.112470000s YansWifiChannel:Receive(0x187d340, 0x187d280, 6.8988e-310, +7112470000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +7015814000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +7015814000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +7015814000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +7015823000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +7015859000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=17, lifetime=-784052us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++7.112582000s StaWifiMac:Receive(0x18792e0, 0x18075c0, 0x7ffda33a7920)
++7.112582000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++7.112582000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++7.112582000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++8.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187adf0, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++8.000000000s StaWifiMac:Enqueue(0x18792e0, 0x187adf0, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187adf0, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +7112625000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +7112661000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +8000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +7112625000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +7112661000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 8s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +8000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +7112616000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +7112625000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +7112661000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=144
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=9, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +8000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +1476000.0ns, +750000000.0ns, +751476000.0ns, +8000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x181ac20, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++8.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x18845d0, 16.0206)
++8.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x181ac20
++8.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++8.029417000s YansWifiChannel:WjCallReceive(0x18742b0)
++8.029417000s YansWifiChannel:Total_Deserialize(0x18742b0)
++8.029417000s YansWifiChannel:Receive(0x187d340, 0x187d750, 6.8988e-310, +8029417000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-780940us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++8.029465000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=9)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 10)
+[mac=00:00:00:00:00:02] start backoff=10 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++8.033162000s YansWifiChannel:WjCallReceive(0x18742b0)
++8.033162000s YansWifiChannel:Total_Deserialize(0x18742b0)
++8.033162000s YansWifiChannel:Receive(0x187d340, 0x187d280, 6.8988e-310, +8033162000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 10, +8029589000.0ns)
+[mac=00:00:00:00:00:02] update slots=10 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +8029499000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +8029499000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +8029508000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +8029544000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=18, lifetime=-775841us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++8.034642000s StaWifiMac:Receive(0x18792e0, 0x187adf0, 0x7ffda33a7920)
++8.034642000s RegularWifiMac:ForwardUp(0x18792e0, 0x187adf0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 8.03464s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873bf0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++8.034658000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d750, 16.0206)
++8.034658000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873bf0
++8.034658000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++8.133525000s YansWifiChannel:WjCallReceive(0x18742b0)
++8.133525000s YansWifiChannel:Total_Deserialize(0x18742b0)
++8.133525000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +8133525000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +8034736000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +8034736000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +8034736000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +8034745000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +8034781000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=19, lifetime=-786997us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++8.133637000s StaWifiMac:Receive(0x18792e0, 0x1879aa0, 0x7ffda33a7920)
++8.133637000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++8.133637000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++8.133637000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++9.000000000s ArpL3Protocol:Lookup(0x187e140, 0x187bdb0, 10.1.3.1, 0x1878f50, 0x187ff50, 0x7ffda33a7070)
++9.000000000s StaWifiMac:Enqueue(0x18792e0, 0x187bdb0, 00:00:00:00:00:08)
+[mac=00:00:00:00:00:02] Txop:Queue(0x18791b0, 0x187bdb0, 0x7ffda33a6a60)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +8133680000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +8133716000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:HasFramesToTransmit(0x18791b0, false)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +9000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:StartAccessIfNeeded(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +8133680000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +8133716000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessRequested(0x18791b0)
+At time 9s client sent 1024 bytes to 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +9000034000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +8133671000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +8133680000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +8133716000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:NotifyAccessGranted(0x18791b0)
+[mac=00:00:00:00:00:02] dequeued size=1060, to=00:00:00:00:00:08, seq=160
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] MacLow:StartTransmission(0x18795c0, size=1060, to=00:00:00:00:00:08, seqN=10, lifetime=0us, [send rts=false, next size=0, ack=normal, bar=none], 0x18791b0)
+[mac=00:00:00:00:00:02] MacLow:CancelAllEvents(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:SendDataPacket(0x18795c0, +9000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:StartDataTxTimers(0x18795c0, +992000.0ns, +750000000.0ns, +750992000.0ns, +9000034000.0ns)
+[mac=00:00:00:00:00:02] MacLow:GetResponseDuration(0x18795c0, 00:00:00:00:00:08, mode: OfdmRate9Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false, [send rts=false, next size=0, ack=normal, bar=none])
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate9Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x18c4590, mode: OfdmRate9Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++9.000034000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x1884660, 16.0206)
++9.000034000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x18c4590
++9.000034000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++9.026091000s YansWifiChannel:WjCallReceive(0x18742b0)
++9.026091000s YansWifiChannel:Total_Deserialize(0x18742b0)
++9.026091000s YansWifiChannel:Receive(0x187d340, 0x187d280, 6.8988e-310, +9026091000.0ns)
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=0, to=00:00:00:00:00:02, seqN=25907, lifetime=-784677us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
+[mac=00:00:00:00:00:02] Txop:GotAck(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:NeedFragmentation(0x18791b0)
+WifiRemoteStationManager::NeedFragmentation result: false
+[mac=00:00:00:00:00:02] got ack. tx done.
++9.026139000s RegularWifiMac:TxOk(0x18792e0, DATA ToDS=1, FromDS=0, MoreFrag=0, Retry=0, MoreData=0 Duration/ID=41786us, DA=00:00:00:00:00:08, SA=00:00:00:00:00:02, BSSID=00:00:00:00:00:08, FragNumber=0, SeqNumber=10)
+[mac=00:00:00:00:00:02] Txop:ResetCw(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:GenerateBackoff(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:StartBackoffNow(0x18791b0, 13)
+[mac=00:00:00:00:00:02] start backoff=13 slots
+[mac=00:00:00:00:00:02] Txop:RestartAccessIfNeeded(0x18791b0)
++9.029540000s YansWifiChannel:WjCallReceive(0x18742b0)
++9.029540000s YansWifiChannel:Total_Deserialize(0x18742b0)
++9.029540000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +9029540000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 13, +9026290000.0ns)
+[mac=00:00:00:00:00:02] update slots=13 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +9026173000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +9026173000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +9026182000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +9026218000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=1060, to=00:00:00:00:00:02, seqN=20, lifetime=-779874us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++9.031020000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++9.031020000s RegularWifiMac:ForwardUp(0x18792e0, 0x187bdb0, 00:00:00:00:00:08, 00:00:00:00:00:02)
+At time 9.03102s client received 1024 bytes from 10.1.3.1 port 9
+[mac=00:00:00:00:00:02] MacLow:SendAckAfterData(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:GetControlAnswerMode(0x18795c0, OfdmRate6Mbps)
+[mac=00:00:00:00:00:02] MacLow:ForwardDown(0x18795c0, 0x1873ea0, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++9.031036000s YansWifiChannel:Send(0x18742b0, 0x187d340, 0x187d280, 16.0206)
++9.031036000s YansWifiChannel:Send("wjwj")
+preamble=LONG, modulation=8, truncatedTx=N, PSDU=0x1873ea0
++9.031036000s YansWifiChannel:Total_Serialize(0x18742b0)
+In Send From
++9.155298000s YansWifiChannel:WjCallReceive(0x18742b0)
++9.155298000s YansWifiChannel:Total_Deserialize(0x18742b0)
++9.155298000s YansWifiChannel:Receive(0x187d340, 0x1884660, 6.8988e-310, +9155298000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +9031114000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +9031114000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +9031114000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +9031123000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +9031159000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=21, lifetime=-789224us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++9.155410000s StaWifiMac:Receive(0x18792e0, 0x1879a10, 0x7ffda33a7920)
++9.155410000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++9.155410000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++9.155410000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++10.188820000s YansWifiChannel:WjCallReceive(0x18742b0)
++10.188820000s YansWifiChannel:Total_Deserialize(0x18742b0)
++10.188820000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +10188820000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +9155444000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +9155444000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +9155444000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +9155453000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +9155489000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=22, lifetime=-779702us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++10.188932000s StaWifiMac:Receive(0x18792e0, 0x1879aa0, 0x7ffda33a7920)
++10.188932000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++10.188932000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++10.188932000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++11.205758000s YansWifiChannel:WjCallReceive(0x18742b0)
++11.205758000s YansWifiChannel:Total_Deserialize(0x18742b0)
++11.205758000s YansWifiChannel:Receive(0x187d340, 0x1884660, 6.8988e-310, +11205758000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +10188966000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +10188966000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +10188966000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +10188975000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +10189011000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=23, lifetime=-786764us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++11.205870000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++11.205870000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++11.205870000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++11.205870000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++11.320000000s StaWifiMac:MissedBeacons(0x18792e0)
++12.232962000s YansWifiChannel:WjCallReceive(0x18742b0)
++12.232962000s YansWifiChannel:Total_Deserialize(0x18742b0)
++12.232962000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +12232962000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +11205904000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +11205904000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +11205904000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +11205913000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +11205949000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=24, lifetime=-783560us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++12.233074000s StaWifiMac:Receive(0x18792e0, 0x1879a10, 0x7ffda33a7920)
++12.233074000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++12.233074000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++12.233074000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++13.266739000s YansWifiChannel:WjCallReceive(0x18742b0)
++13.266739000s YansWifiChannel:Total_Deserialize(0x18742b0)
++13.266739000s YansWifiChannel:Receive(0x187d340, 0x1884660, 6.8988e-310, +13266739000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +12233108000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +12233108000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +12233108000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +12233117000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +12233153000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=25, lifetime=-773783us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++13.266851000s StaWifiMac:Receive(0x18792e0, 0x1879aa0, 0x7ffda33a7920)
++13.266851000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++13.266851000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++13.266851000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++14.282069000s YansWifiChannel:WjCallReceive(0x18742b0)
++14.282069000s YansWifiChannel:Total_Deserialize(0x18742b0)
++14.282069000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +14282069000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +13266885000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +13266885000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +13266885000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +13266894000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +13266930000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=26, lifetime=-782453us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++14.282181000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++14.282181000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++14.282181000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++14.282181000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++15.306082000s YansWifiChannel:WjCallReceive(0x18742b0)
++15.306082000s YansWifiChannel:Total_Deserialize(0x18742b0)
++15.306082000s YansWifiChannel:Receive(0x187d340, 0x1884660, 6.8988e-310, +15306082000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +14282215000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +14282215000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +14282215000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +14282224000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +14282260000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=27, lifetime=-782440us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++15.306194000s StaWifiMac:Receive(0x18792e0, 0x1879a10, 0x7ffda33a7920)
++15.306194000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++15.306194000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++15.306194000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++16.329081000s YansWifiChannel:WjCallReceive(0x18742b0)
++16.329081000s YansWifiChannel:Total_Deserialize(0x18742b0)
++16.329081000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 6.8988e-310, +16329081000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +15306228000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +15306228000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +15306228000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +15306237000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +15306273000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=28, lifetime=-783441us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++16.329193000s StaWifiMac:Receive(0x18792e0, 0x1879aa0, 0x7ffda33a7920)
++16.329193000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++16.329193000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++16.329193000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++17.354089000s YansWifiChannel:WjCallReceive(0x18742b0)
++17.354089000s YansWifiChannel:Total_Deserialize(0x18742b0)
++17.354089000s YansWifiChannel:Receive(0x187d340, 0x1884660, 6.8988e-310, +17354089000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +16329227000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +16329227000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +16329227000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +16329236000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +16329272000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=29, lifetime=-782433us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++17.354201000s StaWifiMac:Receive(0x18792e0, 0x187bdb0, 0x7ffda33a7920)
++17.354201000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++17.354201000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++17.354201000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
++18.373379000s YansWifiChannel:WjCallReceive(0x18742b0)
++18.373379000s YansWifiChannel:Total_Deserialize(0x18742b0)
++18.373379000s YansWifiChannel:Receive(0x187d340, 0x18845d0, 0, +18373379000.0ns)
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x18791b0, 0, +17354235000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187a3b0, 0, +17354235000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187ae80, 0, +17354235000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187b9f0, 0, +17354244000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] Txop:UpdateBackoffSlotsNow(0x187c4f0, 0, +17354280000.0ns)
+[mac=00:00:00:00:00:02] update slots=0 slots, backoff=0
+[mac=00:00:00:00:00:02] MacLow:DeaggregateAmpduAndReceive(0x18795c0)
+[mac=00:00:00:00:00:02] MacLow:ReceiveOk(0x18795c0, size=33, to=ff:ff:ff:ff:ff:ff, seqN=30, lifetime=-787143us, 2.49229e+09, mode: OfdmRate6Mbps txpwrlvl: 0 preamble: LONG channel width: 20 GI: 800 NTx: 1 Nss: 1 Ness: 0 MPDU aggregation: false STBC: false)
++18.373491000s StaWifiMac:Receive(0x18792e0, 0x1879a10, 0x7ffda33a7920)
++18.373491000s StaWifiMac:RestartBeaconWatchdog(0x18792e0, +10240000000.0ns)
++18.373491000s StaWifiMac:UpdateApInfoFromBeacon(0x18792e0, ssid=ns-3-ssid, rates=[*6mbs 9mbs *12mbs 18mbs *24mbs 36mbs 48mbs 54mbs], ERP information=false|false|false, Extended Capabilities=0 , HT Capabilities=false|false|false|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , HT Operation=false|0|false|false|0|false|false|false|false|false|false|false|false|0|false|false|0|false|false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false false  , VHT Capabilities=0|281470681808895 , VHT Operation=0|0|0|0 , HE Capabilities=0|0|0|0|0 , HE Operation=0|0, 00:00:00:00:00:08, 00:00:00:00:00:08)
++18.373491000s RegularWifiMac:SetBssid(0x18792e0, 00:00:00:00:00:08)
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+WifiRemoteStationManager::LookupState returning existing state
+ArpL3Protocol:DoDispose(0x187e140)
+RegularWifiMac:DoDispose(0x18792e0)
+[mac=00:00:00:00:00:02] MacLow:DoDispose(0x18795c0)
+[mac=00:00:00:00:00:02] Txop:DoDispose(0x18791b0)
+[mac=00:00:00:00:00:02] Txop:DoDispose(0x187b9f0)
+[mac=00:00:00:00:00:02] Txop:DoDispose(0x187c4f0)
+[mac=00:00:00:00:00:02] Txop:DoDispose(0x187ae80)
+[mac=00:00:00:00:00:02] Txop:DoDispose(0x187a3b0)
+[mac=00:00:00:00:00:02] MacLow:~MacLow(0x18795c0)
+Txop:~Txop(0x18791b0)
+Txop:~Txop(0x187a3b0)
+Txop:~Txop(0x187ae80)
+Txop:~Txop(0x187b9f0)
+Txop:~Txop(0x187c4f0)
+StaWifiMac:~StaWifiMac(0x18792e0)
+RegularWifiMac:~RegularWifiMac(0x18792e0)
+ArpL3Protocol:~ArpL3Protocol(0x187e140)
+YansWifiChannel:~YansWifiChannel(0x18742b0)
